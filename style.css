@@ -1,0 +1,583 @@
+/* header part */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    overflow: visible;
+    width: 100%;
+    height: 800px;
+    background-image: url("images/headpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(4, 4, 201);
+    opacity: 0.6;
+}
+.list-1{
+    width: 72%;
+    height: 70px;
+    color: white;
+}
+.list-1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.list-1-1 li{
+    padding: 25px 0px;
+    cursor: pointer;
+}
+.list-2{
+    width: 20%;
+    height: 70px;
+    color: white;
+    margin-right: 10px; 
+}
+.list-2-1{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: end;
+}
+.list-2-1 li{
+    padding: 25px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header_1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px ;
+}
+
+.header_2{
+    width: 87%;
+    height: 80px;
+    background:whitesmoke;
+    margin-left: 100px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+}
+.header_2_nb{
+    padding: 30px 0;
+}
+.header_2_nb a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.header_2_btn{
+    padding: 15px 0;
+}
+.header_2_btn button{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.learn{
+    color: white;
+    font-size: 60px;
+    margin: 100px 120px;
+    text-align-last: center;
+    font-weight: 600;
+}
+
+.bar{
+    width: 35%;
+    height: 68px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 40px;
+    margin-left: 33%;
+    
+}
+.bar h1{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 25px 30px;
+}
+.bar i{
+    font-size: 20px;
+    margin: 25px 10px;
+}
+.words{
+    color: white;
+    font-weight: 100;
+    font-size: 10px;
+    margin: 50px 500px;
+}
+.trio{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 220px;
+    font-size: 25px;
+}
+.trio span{
+    color: blue;
+}
+/* language part */
+.codlang{
+    width: 100%;
+    height: 80px;
+    margin: 60px 0;
+}
+.codlang img{
+    margin: 0 30px;
+}
+/* shaping and empowering it talent */
+.words-2{
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    text-align-last: center;
+}
+/* making 3 cards */
+.cards{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.card-1{
+    margin: 60px 60px;
+    display: flex;
+    flex-direction: row;
+    
+    height: 200px;   
+}
+.card-1-1{
+    margin-top: 50px;
+    
+}
+.card-1-1 h6{
+    color: rgb(199, 155, 241);
+    font-size: 15px;
+    line-height: 4;
+    
+}
+.card-1 h1{
+    font-size: 50px;
+    line-height: 1;
+}
+/* paragraphs */
+.paragraphs{
+    width: 86%;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.para{
+margin: 60px 60px;
+height: 200px;
+display: flex;
+flex-direction: row;
+color: rgb(199, 155, 241);
+}
+/* small area */
+.small{
+    margin: 60px 470px;
+    font-size: 20px;
+}
+.small h6{
+color: rgb(199, 155, 241);
+}
+/* empoweing connections */
+.connections{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.parent{
+    width: 50%;
+    height: 800px;
+    position: relative;
+}
+.child-1{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+}
+.child-2{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 250px;
+    right: 100px;
+}
+.child-3{
+    width: 250px;
+    height: 260px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.conn-text{
+    width: 40%;
+    height: 800px;
+    
+}
+#front{
+     padding: 10px 25px;
+     color: blue;
+     background: aliceblue;
+     border-radius: 20px;
+     border-style: none;
+     margin-top: 150px;
+}
+.conn-text h1{
+    margin-top: 15px;
+    font-size: 40px;
+}
+.conn-text h4{
+    margin-top: 30px;
+    text-align: left;
+    color: rgb(182, 166, 142);
+}
+.conn-text p{
+    margin-top: 40px;
+    text-align: left;
+    color: rgb(142, 125, 102);
+}
+#last{
+    margin-top: 80px;
+    padding: 25px 50px;
+    color: white;
+    font-weight: 900;
+    background: blue;
+    border-radius: 50px;
+    border-style: none;
+}
+/* 100 of internships */
+.hundred{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.hundred-1{
+    width: 40%;
+    height: 700px;
+}
+.hundred-1 h1{
+    font-size: 55px;
+}
+.hundred-1 p{
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(94, 137, 137);  
+}
+.hundred-2{
+    background: white;
+    width: 40%;
+    height: 700px;
+    position: relative;
+}
+#hundred-2-1{
+   position: absolute;
+   top: 120px;
+   left: 19px;
+}
+#hundred-2-2{
+    position: absolute;
+    top: 120px;
+    right: 19px;
+}
+#hundred-2-3{
+    position: absolute;
+    top: 272px;
+    left: 19px;
+}
+#hundred-2-4{
+    position: absolute;
+    top: 272px;
+    right: 19px;
+}
+.same{
+    width: 250px;
+    height: 150px;
+    background: aliceblue;
+    text-align: center;
+    box-shadow: 2px white;
+}
+.same h1{
+font-size: 50px;
+margin-top: 40px;
+}
+.same p{
+    font-size: 15px;
+    color: rgb(54, 148, 230);
+}
+/* web-dev-cards */
+.develop{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+#develop-1{
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+#develop-2{
+    position: absolute;
+    top: 0;
+    right: 475px;
+}
+#develop-3{
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+#develop-4{
+    position: absolute;
+    top: 490px;
+    left: 40px;
+}
+#develop-5{
+    position: absolute;
+    top: 490px;
+    right: 475px;
+}
+#develop-6{
+    position: absolute;
+    top: 490px;
+    right: 40px;
+}
+.carding{
+    width: 350px;
+    height: 400px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+  }
+  .carding:hover{
+    background: white;
+  }
+  
+  .icon-container {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+  }
+  
+  .icon-container i {
+    font-size: 90px;
+    color: #333;
+  }
+  
+  .card-content {
+    margin-left: 40px;
+  }
+  
+  .card-heading {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 150px;
+  }
+  
+  .carding-paragraph {
+    font-size: 14px;
+    color: rgb(235, 198, 129);
+    line-height: 1.5;
+  }
+  /* social-media */
+  .card-container {
+    position: relative;
+    
+    width: 100%;
+    height: 450px;
+    margin: 50px 0;
+  }
+  
+  .card {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 350px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .card-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .card-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-icon {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card-paragraph {
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+      /* social media tools */
+  .youto{
+     width: 100%;
+     height: 250px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+      }
+      .straight{
+        width: 25%;
+        height: 300px;
+        margin:px;
+      }
+      .straight i{
+        font-size: 70px;
+        margin-left: 130px;
+        margin-top: 30px;
+        color: rgb(149, 163, 175);
+      }
+      .straight h2{
+        margin-top: 40px;
+        font-size: 15px;
+        margin-left: 80px;
+      }
+      .straight a{
+        margin-left: 80px;
+        text-decoration: none;
+      }
+      /* SHADOWEY DIV */
+      .shady{
+        width: 90%;
+        height: 300px;
+        margin-left: 70px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(166, 177, 186, 0.5);
+      
+      }
+      #started{
+          position: absolute;
+          right: 150px;
+          margin-top: 125px;
+          padding: 30px 70px;
+          color: white;
+          background: blue;
+          border-radius: 40px;
+          border-style: none;
+          font-weight: 900;
+      }
+      .shady h1{
+        font-size: 50px;
+        position: absolute;
+        left: 120px;
+        margin-top: 60px;
+      }
+      .shady p{
+        color: rgb(182, 161, 135);
+        font-size: 25px;
+        position: absolute;
+        left: 120px;
+        margin-top: 140px;
+      }
+      /* footer */
+      .footer{
+        width: 100%;
+        height: 200px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 120px;
+      }
+      .addres{
+       width: 20%;
+       height: 400px;
+      }
+      .add{
+        margin-top: 60px;
+        color: rgb(138, 152, 165);
+      }
+      .num{
+        margin-top: 25px;
+        color: rgb(138, 152, 165);
+      }
+      .gm{
+        margin-top: 25px;
+      }
+      .explore{
+        width: 20%;
+       height: 400px;
+      }
+      .explore h1{
+        font-size: 25px;
+      }
+      .explore ul li{
+        list-style-type: none;
+        margin-top: 20px;
+      }
+      .sub{
+        width: 20%;
+        height: 400px;
+      }
+      .sub h1{
+        font-size: 25px;
+      }
+      .sub p{
+        margin-top: 20px;
+      }
+      .sub input{
+        margin-top: 40px;
+        padding: 15px 25px;
+        border-style: none;
+        background: aliceblue;
+      }
+      #go{
+        padding: 15px 10px;
+        border-style: none;
+      }
